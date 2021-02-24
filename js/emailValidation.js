@@ -13,6 +13,12 @@ form.onsubmit = function(){
                      position: absolute;
                      top:6.5rem;
                      font-family: 'Roboto', sans-serif;
+                     background-color:white;
+                     padding:20px;
+                     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    border-radius: 10px;
                      ">
             Email field is empty
         </span>
@@ -25,6 +31,12 @@ form.onsubmit = function(){
                      position: absolute;
                      top:6.5rem;
                      font-family: 'Roboto', sans-serif;
+                     background-color:white;
+                     padding:20px;
+                     -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+                    border-radius: 10px;
                      ">
             Please, write correct e-mail
         </span>
