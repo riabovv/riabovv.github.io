@@ -11,7 +11,7 @@ form.onsubmit = function(){
         input.insertAdjacentHTML('beforebegin', `
         <span style="color:rgb(240 180 0); 
                      position: absolute;
-                     top:6.5rem;
+                     top:3.5rem;
                      font-family: 'Roboto', sans-serif;
                      background-color:white;
                      padding:20px;
@@ -29,7 +29,7 @@ form.onsubmit = function(){
         input.insertAdjacentHTML('beforebegin', `
         <span style="color:red; 
                      position: absolute;
-                     top:6.5rem;
+                     top:3.5rem;
                      font-family: 'Roboto', sans-serif;
                      background-color:white;
                      padding:20px;
