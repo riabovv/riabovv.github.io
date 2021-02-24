@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!----> 
+    <link rel="stylesheet" href="bootstrap-icons-1.2.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Library | Cards</title>
+</head>
+<body>
+<div class="__library">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="logo col-lg-2">
+                <h1 class="fs-4 text-info fw-bold p-2">LIBRARY</h1>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="nav bg-dark">
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5" aria-current="page" href="index.html">Books</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5" href="visitors.html">Visitors</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5 __active-link" href="cards.html">Cards</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                    <a class="nav-link link-light fs-5" href="statistics.html">Statistics</a>
+                  </li>
+              </ul>
+        </div>
+        <div class="row d-flex justify-content-between align-items-center flex-row py-3 __border-bottom">
+            <span class="col-lg-3 col-md-3 col-3 text-info fw-bold">ALL CARDS:</span>
+            <button type="button" class="btn btn-outline-dark col-lg-3 col-md-3 col-3 mx-3" id="add_new_card">New card</button>
+        </div>
+        <div class="row py-3">
+            <div id="sort" class="col-lg-6 col-md-6 d-flex align-items-center flex-row">
+                <span>Sort by:</span>
+                <select class="form-select mx-3" aria-label="Default select example" id="card_select">
+                    <option value="id">ID</option>
+                    <option value="visitor">Visitor</option>
+                    <option value="book">Book</option>
+                    <option value="borrow">Borrow date</option>
+                    <option value="returnDate">Return date</option>
+                </select>
+                <button class="btn btn-outline-dark px-3" id="card_sort">Sort</button>
+            </div>
+            <div id="search" class="col-lg-6 col-md-6 d-flex justify-content-end align-items-center flex-row">
+                <span>Search:</span>
+                <input type="text" class="form-control mx-3" id="search_input">
+                <button class="btn btn-outline-dark px-3" id="search_btn">Search</button>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="output_result">
+                <span class="d-block text-center" id="no-card">There are no cards. <button class="__create-card" id="add_card_link">Create a new one</button></span>
+                <table class="table table-bordered border-secondary __visitors" id="cards_table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Visitor</th>
+                        <th scope="col">Book</th>
+                        <th scope="col">Borrow date</th>
+                        <th scope="col">Return date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>Name Surname</td>
+                        <td>Book 1</td>
+                        <td>05.01.2021</td>
+                        <td>05.02.2021</td>
+                        <td>
+                            <button class="__edit_btn"><i class="bi bi-pencil-fill"></i></button>
+                        </td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script src="js/cards.js" defer></script>
+</body>
+</html>
+

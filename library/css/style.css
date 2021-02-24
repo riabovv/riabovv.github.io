@@ -1,0 +1,146 @@
+body,
+html {
+    background-color: rgb(233, 233, 233);
+}
+
+.nav a:hover {
+    color: rgb(161, 161, 161) !important;
+}
+
+.nav {
+    padding-left: 2rem;
+}
+
+h1 {
+    margin-bottom: 0px !important;
+}
+
+
+.__border-bottom {
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+
+.form-select {
+    width: 15rem;
+    cursor: pointer;
+}
+
+.form-control {
+    width: 15rem;
+}
+
+.__create-visitor,.__create-card {
+    text-decoration: none;
+    color: grey;
+    border: none;
+    background: none;
+    border-bottom: 1px solid grey;
+}
+
+.__create-visitor:focus,.__create-card:focus{
+    outline: none;
+}
+
+.__edit_btn {
+    border: none;
+    background: none;
+}
+
+.__edit_btn:focus {
+    outline: none;
+}
+
+.__edit_btn:active {
+    color: #0dcaf0;
+}
+
+.__visitors th,
+td {
+    text-align: center;
+}
+
+.__visitors_modal,.__books_modal,.__cards_modal {
+    position: absolute;
+    top: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100vh;
+}
+
+.__visitors_modal .__overlay,.__books_modal .__overlay,.__cards_modal .__overlay {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.__visitors_modal .__modal,.__books_modal .__modal,.__cards_modal .__modal {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: calc(50% - 10rem);
+    width: 50%;
+    min-height: 10rem;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    padding-bottom: 2rem;
+    max-width: 510px;
+}
+
+.__modal_close{
+    float: right;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+    background: none;
+    border:none;
+    font-size: 35px;
+}
+.__modal_close:hover{
+    color: rgb(170, 0, 0);
+}
+.__modal_close:focus{
+    outline: none;
+}
+.__edit_from{
+    margin-top: 2rem;
+    padding: 0rem 2rem;
+}
+.modal_title{
+    font-weight: bold;
+    font-size: 18px;
+}
+.fullname,.phone_number,.save_btn,.title,.author,.amount,.visitor,.book,.borrow,.return{
+    display: block;
+    margin-top: 0.5rem;
+}
+#fullname,#phonenumber,#title,#author,#amount,#visitor,#book,#borrow,#returnBook{
+    width: 100%;
+    padding: 2px 5px;
+}
+label{
+    cursor: pointer;
+}
+.save_btn button,.delete_btn button{
+    width: 100%;
+}
+.__active-link{
+    text-decoration: underline;
+}
+
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+.format_title{
+    display: block;
+    font-size: 10px;
+    color: rgb(136, 136, 136);
+}
+
+#book, #visitor{
+    cursor: pointer;
+}

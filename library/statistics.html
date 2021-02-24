@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!----> 
+    <link rel="stylesheet" href="bootstrap-icons-1.2.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Library | Statistics</title>
+</head>
+<body>
+<div class="__library">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="logo col-lg-2">
+                <h1 class="fs-4 text-info fw-bold p-2">LIBRARY</h1>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="nav bg-dark">
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5" aria-current="page" href="index.html">Books</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5" href="visitors.html">Visitors</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                  <a class="nav-link link-light fs-5" href="cards.html">Cards</a>
+                </li>
+                <li class="nav-item pt-1 pb-1 border-start border-secondary">
+                    <a class="nav-link link-light fs-5 __active-link" href="statistics.html">Statistics</a>
+                  </li>
+              </ul>
+        </div>
+        <div class="row py-3">
+            <div class="output_result">
+                <!-- <span class="d-block text-center">There are no visitors. <a href="#" class="__create-visitor">Create a new one</a></span> -->
+                <table class="table table-bordered border-secondary __visitors" id="stat_table">
+                    <thead>
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Book</th>
+                        <th scope="col">Author</th>
+                        <th scope="col">Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- <tr>
+                        <th scope="row">1</th>
+                        <td>Name Surname</td>
+                        <td>Book 1</td>
+                        <td>05.01.2021</td>
+                        <td>05.02.2021</td>
+                        <td>
+                            <button class="__edit_btn"><i class="bi bi-pencil-fill"></i></button>
+                        </td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="__cards_modal">
+        <div class="__overlay">
+            <div class="__modal">
+                <button class="__modal_close">
+                    <i class="bi bi-x"></i>
+                </button>
+                <div class="__edit_from">
+                    <span class="modal_title">New card:</span>
+                    <div class="visitor">
+                        <label for="visitor">Visitor:</label>
+                        <input type="text" id="visitor">
+                    </div>
+                    <div class="book">
+                        <label for="book">Book:</label>
+                        <input type="text" id="book">
+                    </div>
+                    <div class="save_btn">
+                        <button class="btn btn-outline-dark">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</div>
+<script src="js/stat.js" defer></script>
+</body>
+</html>
+
