@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>project1</title>
 </head>
 <body>
@@ -105,7 +106,7 @@
             </div>
        </section>
        <section class="app__">
-            <div class="text">
+            <div class="text" data-aos="fade-right">
                 <span>DESKTOP AND MOBILE APP</span>
                 <h6><b>Plan</b> and <b>manage</b></h6>
                 <p>Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata. Solum patrioque no sea. Mea ex malis mollis oporteat. Eum an expetenda consequat.</p>
@@ -117,17 +118,17 @@
                     <a href="features.html" class="sf">See features</a>
                 </div>
             </div>
-            <div class="illustration">
+            <div class="illustration" data-aos="fade-left">
                 <img src="img/illustration.png" alt="app">
             </div>
        </section>
-       <section class="about">
+       <section class="about" >
             <img src="img/clouds/cloud1.png" alt="cloud" class="zIndex cloud1">
             <img src="img/clouds/cloud2.png" alt="cloud" class="zIndex cloud2">
             <img src="img/clouds/cloud3.png" alt="cloud" class="zIndex cloud3">
-            <span>ABOUT US</span>
-            <h6>Read about our app</h6>
-            <div class="row">
+            <span data-aos="fade-top">ABOUT US</span>
+            <h6 data-aos="fade">Read about our app</h6>
+            <div class="row" data-aos="slide-right">
                 <div class="card">
                     <div class="img">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 21"><path stroke="#4074F8" stroke-width="2.5" d="M2 7.873V19h4.421L9 17l2.579 2H16V7.873L9 2 2 7.873z"/></svg>
@@ -161,7 +162,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row_btns">
+            <div class="row_btns" data-aos="slide-left">
                 <a href="features.html" class="rm_link">Read more</a>
                 <div class="line"></div>
                 <span class="or">OR</span>
@@ -182,8 +183,8 @@
            </div>
         </section>
         <section class="resources">
-            <span>OUR RESOURCES</span>
-            <h6>Start reading our blog</h6>
+            <span data-aos="fade">OUR RESOURCES</span>
+            <h6 data-aos="fade">Start reading our blog</h6>
             <div class="slider2">
                 <div class="show">
                     <div class="screen1">
@@ -378,5 +379,13 @@
       console.log ( '%c%s', 'color: #4074F8; font: 2rem/1 Tahoma; margin: 10px 0px', str );
   </script>
   <script src="js/burgerMenu.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init({
+          duration: 1200,
+          delay: 100,
+          once: true
+      });
+  </script>
 </body>
 </html>

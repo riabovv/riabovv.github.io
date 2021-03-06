@@ -14,6 +14,7 @@
 html,body{
     background-color: #FFFFFF;
     position: relative;
+    overflow-x: hidden !important;
 }
 
 a{
