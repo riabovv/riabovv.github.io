@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/site2-react/static/css/main.436b92d8.chunk.css",
+    "main.js": "/site2-react/static/js/main.659acb20.chunk.js",
+    "main.js.map": "/site2-react/static/js/main.659acb20.chunk.js.map",
+    "runtime-main.js": "/site2-react/static/js/runtime-main.c4b467dc.js",
+    "runtime-main.js.map": "/site2-react/static/js/runtime-main.c4b467dc.js.map",
+    "static/js/2.b05cf510.chunk.js": "/site2-react/static/js/2.b05cf510.chunk.js",
+    "static/js/2.b05cf510.chunk.js.map": "/site2-react/static/js/2.b05cf510.chunk.js.map",
+    "index.html": "/site2-react/index.html",
+    "static/css/main.436b92d8.chunk.css.map": "/site2-react/static/css/main.436b92d8.chunk.css.map",
+    "static/js/2.b05cf510.chunk.js.LICENSE.txt": "/site2-react/static/js/2.b05cf510.chunk.js.LICENSE.txt",
+    "static/media/algorithms.93136980.webp": "/site2-react/static/media/algorithms.93136980.webp",
+    "static/media/army.c603ad30.webp": "/site2-react/static/media/army.c603ad30.webp",
+    "static/media/cambridge.6c99a52e.webp": "/site2-react/static/media/cambridge.6c99a52e.webp",
+    "static/media/clock.db2a5dfc.svg": "/site2-react/static/media/clock.db2a5dfc.svg",
+    "static/media/code.23ef7252.webp": "/site2-react/static/media/code.23ef7252.webp",
+    "static/media/daniel.7efec292.webp": "/site2-react/static/media/daniel.7efec292.webp",
+    "static/media/economics.495f13b1.webp": "/site2-react/static/media/economics.495f13b1.webp",
+    "static/media/Certificate.css": "/site2-react/static/media/education.e7b99749.webp",
+    "static/media/globe.c1183ee1.svg": "/site2-react/static/media/globe.c1183ee1.svg",
+    "static/media/harvard.fac95ead.webp": "/site2-react/static/media/harvard.fac95ead.webp",
+    "static/media/Header.css": "/site2-react/static/media/headerBgImage.4421c6a1.webp",
+    "static/media/iphone.12db58b9.svg": "/site2-react/static/media/iphone.12db58b9.svg",
+    "static/media/lyre.e7159fe6.svg": "/site2-react/static/media/lyre.e7159fe6.svg",
+    "static/media/man.8ff19181.svg": "/site2-react/static/media/man.8ff19181.svg",
+    "static/media/mit.1e4c09b0.webp": "/site2-react/static/media/mit.1e4c09b0.webp",
+    "static/media/nick.f0adf99f.webp": "/site2-react/static/media/nick.f0adf99f.webp",
+    "static/media/sarah.f870905b.webp": "/site2-react/static/media/sarah.f870905b.webp",
+    "static/media/ucla.e53328ac.webp": "/site2-react/static/media/ucla.e53328ac.webp",
+    "static/media/william.1b1a7bd7.webp": "/site2-react/static/media/william.1b1a7bd7.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c4b467dc.js",
+    "static/js/2.b05cf510.chunk.js",
+    "static/css/main.436b92d8.chunk.css",
+    "static/js/main.659acb20.chunk.js"
+  ]
+}
