@@ -1,14 +1,14 @@
 {
-  "main.css": "/react-todo-app/static/css/main.96b16116.chunk.css",
-  "main.js": "/react-todo-app/static/js/main.ae06f676.chunk.js",
-  "main.js.map": "/react-todo-app/static/js/main.ae06f676.chunk.js.map",
-  "static/js/1.94d2864a.chunk.js": "/react-todo-app/static/js/1.94d2864a.chunk.js",
-  "static/js/1.94d2864a.chunk.js.map": "/react-todo-app/static/js/1.94d2864a.chunk.js.map",
+  "main.css": "/react-todo-app/static/css/main.3ca4d8b6.chunk.css",
+  "main.js": "/react-todo-app/static/js/main.6e11a472.chunk.js",
+  "main.js.map": "/react-todo-app/static/js/main.6e11a472.chunk.js.map",
+  "static/js/1.06c601bb.chunk.js": "/react-todo-app/static/js/1.06c601bb.chunk.js",
+  "static/js/1.06c601bb.chunk.js.map": "/react-todo-app/static/js/1.06c601bb.chunk.js.map",
   "runtime~main.js": "/react-todo-app/static/js/runtime~main.dc884f14.js",
   "runtime~main.js.map": "/react-todo-app/static/js/runtime~main.dc884f14.js.map",
-  "static/media/index.css": "/react-todo-app/static/media/icomoon.68772a3e.woff",
-  "static/css/main.96b16116.chunk.css.map": "/react-todo-app/static/css/main.96b16116.chunk.css.map",
+  "static/media/index.css": "/react-todo-app/static/media/icomoon.479cbfbe.svg",
+  "static/css/main.3ca4d8b6.chunk.css.map": "/react-todo-app/static/css/main.3ca4d8b6.chunk.css.map",
   "index.html": "/react-todo-app/index.html",
-  "precache-manifest.39c5d5988a6afb4710df782a022cc353.js": "/react-todo-app/precache-manifest.39c5d5988a6afb4710df782a022cc353.js",
+  "precache-manifest.a4200501448f2351c7f259ca09db4e1e.js": "/react-todo-app/precache-manifest.a4200501448f2351c7f259ca09db4e1e.js",
   "service-worker.js": "/react-todo-app/service-worker.js"
 }
